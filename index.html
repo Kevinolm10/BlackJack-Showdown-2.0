@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <title>BlackJack - Kevinolm</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 class="welcome-text">BlackJack by Kevinolm</h1>
+    <div class="game-container">
+        <div class="score-container">
+            <div class="dealer-score">
+                <h2>Dealer Score: <span id="dealer-score">0</span></h2>
+            </div>
+            <div class="player-score">
+                <h2>Player Score: <span id="player-score">0</span></h2>
+            </div>
+        </div>
+        <div class="dealer-card-container">
+        </div>
+        <div class="player-card-container">
+        </div>
+
+        <div class="player-score" id="current-bet">Current player bet:</div>
+        <div class="button-container" id="play-buttons">
+            <button id="hit-button" class="action-btn">Hit</button>
+            <button id="stand-button" class="action-btn">Stand</button>
+            <button id="bet-button" class="action-btn">Bet</button>
+        </div>
+        <div class="button-container" id="main-menu-buttons">
+            <button id="play-button" class="action-btn">Play</button>
+            <button id="rules-button" class="action-btn">Rules</button>
+            <button id="statistics-button" class="action-btn">Statistics</button>
+        </div>
+    </div>
+    <div class="game-container" id="cash-container">
+        <h2>Cash</h2>
+        <p class="player-score">You have <span id="cash">1000</span> dollars.</p>
+        <div class="betBtns" id="bet-buttons">
+            <button id="100" class="action-btn">Bet 100</button>
+            <button id="250" class="action-btn">Bet 250</button>
+            <button id="500" class="action-btn">Bet 500</button>
+            <button id="1000" class="action-btn">Bet 1000</button>
+            <button id="all-in" class="action-btn">All In</button>
+            <button id="clear-bet-button" class="action-btn">Clear</button>
+            <button id="place-bet-button" class="action-btn">Place Bet</button>
+            <button id="backToMenu-button" class="action-btn">Back to Menu</button>
+        </div>
+        <div id="cash-actions">
+            <button id="double" class="action-btn">Double</button>
+            <button id="split" class="action-btn">Split</button>
+            <button id="surrender" class="action-btn">Surrender</button>
+        </div>
+    </div>
+</body>
+
+</html>
