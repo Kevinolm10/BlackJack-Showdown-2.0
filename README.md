@@ -6,9 +6,6 @@ This project is a rebuild of the first blackjack game I made as a student at Cod
 
 I also wanted to get better at plain JavaScript: state management, async flow and DOM work without a framework doing it for me. It went through several rewrites as I ran into the problems that frameworks normally hide.
 
-> **Live demo:** _add link here_
-> **Screenshot:** _add `screenshot.png` here_
-
 ---
 
 ## Contents
