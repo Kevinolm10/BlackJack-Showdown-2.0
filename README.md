@@ -1,4 +1,4 @@
-# ♠️ Blackjack
+# ♠️ Blackjack Showdown 2.0
 
 A browser blackjack game built with **vanilla JavaScript, HTML and CSS**: no frameworks, no libraries, no build step. It plays by real casino rules (3:2 blackjack payouts, double down, surrender, dealer stands on 17), uses a persistent card shoe, and saves your cash and statistics between sessions.
 
